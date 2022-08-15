@@ -24,11 +24,7 @@ Run `terraform destroy` when you don't need these resources.
 
 | Name | Description |
 |------|-------------|
-| web\_floating\_ip\_address | List of floating IP addresses of web Droplets |
-| web\_ids | List of IDs of web Droplets |
-| web\_ipv4\_address | List of IPv4 addresses of web Droplets |
-| web\_ipv6\_address | List of IPv6 addresses of web Droplets |
-| web\_tags | List of tags of web Droplets |
-| web\_volume\_attachment\_id | List of volume attachment IDs of web Droplets |
+| name | Droplet name |
+| ipv4 | Droplet IPv4 address |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
